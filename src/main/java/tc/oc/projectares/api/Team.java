@@ -51,7 +51,7 @@ public interface Team {
      *
      * This method will return either the initial name or any modifications
      * applied with {@link #setName}. Getting the initial name is supported by
-     * {@link #getRawName}.
+     * {@link #getInitialName}.
      *
      * @return name of the team excluding any colors or formatting
      */
@@ -70,8 +70,8 @@ public interface Team {
      * Gets the colorized name of the team.
      *
      * This method will use any custom-set name or color in its output. Get the
-     * initial name and color by calling {@link getInitialName} and
-     * {@link getInitialColor}.
+     * initial name and color by calling {@link #getInitialName} and
+     * {@link #getInitialColor}.
      *
      * @return name of the team including any colors or formatting
      */
@@ -89,8 +89,8 @@ public interface Team {
      * Gets the color for the team.
      *
      * This method will return either the initial color for the team or any
-     * custom color set via {@link setColor}. Getting the initial color is
-     * supported by {@link getInitialColor}.
+     * custom color set via {@link #setColor}. Getting the initial color is
+     * supported by {@link #getInitialColor}.
      *
      * @return color of the team
      */
@@ -117,7 +117,7 @@ public interface Team {
      * Broadcasts a message to all members of the team.
      *
      * Equivalent to looping through all members of the team and sending the
-     * message using Bukkit's {@link Player#sendMessage}.
+     * message using Bukkit's {@link org.bukkit.entity.Player#sendMessage}.
      *
      * @param message message to be broadcasted
      * @throws NullPointerException if the message is null
