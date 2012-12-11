@@ -12,7 +12,9 @@ import javax.annotation.Nullable;
  *
  * @see Backend
  */
-public class BackendManager {
+public final class BackendManager {
+    private BackendManager() { }
+
     /**
      * Gets the backend that is currently registered. This method should not be
      * called by users of the API, but rather should be accessed indirectly by

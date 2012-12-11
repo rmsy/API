@@ -12,7 +12,9 @@ import com.google.common.base.Preconditions;
  *
  * @see Player
  */
-public class PlayerManager {
+public final class PlayerManager {
+    private PlayerManager() { }
+
     /**
      * Gets the API's player instance that corresponds to the Bukkit player
      * instance specified.
