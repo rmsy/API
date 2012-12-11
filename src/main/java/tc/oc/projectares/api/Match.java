@@ -25,7 +25,7 @@ public interface Match {
 
     @Nonnull Set<Player> getParticipatingPlayers();
 
-    @Nonnull Set<Player> getObservingPlayers();
+    @Nonnull Set<Player> getSpectatingPlayers();
 
     void broadcast(String message);
 
@@ -33,7 +33,7 @@ public interface Match {
 
     @Nonnull Set<Team> getParticipatingTeams();
 
-    @Nonnull Set<Team> getObservingTeams();
+    @Nonnull Set<Team> getSpectatingTeams();
 
     Team getFirstOther(Team exclude);
 }
