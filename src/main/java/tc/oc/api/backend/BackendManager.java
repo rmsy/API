@@ -1,10 +1,10 @@
-package tc.oc.projectares.api.backend;
+package tc.oc.api.backend;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 /**
- * Responsible for storing the current instance that backs Project Ares static
+ * Responsible for storing the current instance that backs Overcast Network static
  * API calls.
  *
  * This class is primarily intended for internal usage and should not be called

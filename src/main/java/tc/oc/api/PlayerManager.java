@@ -1,9 +1,9 @@
-package tc.oc.projectares.api;
+package tc.oc.api;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import tc.oc.projectares.api.backend.BackendManager;
+import tc.oc.api.backend.BackendManager;
 
 import com.google.common.base.Preconditions;
 

@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>tc.oc.projectares</groupId>
+    <groupId>tc.oc</groupId>
     <artifactId>api</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <name>ProjectAres API</name>
-    <description>Public-facing API for Project Ares Minecraft public servers</description>
+    <name>Overcast Network API</name>
+    <description>Public-facing API for Overcast Network public Minecraft servers.</description>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -13,9 +13,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:ProjectAres/API.git</connection>
-        <developerConnection>scm:git:git@github.com:ProjectAres/API.git</developerConnection>
-        <url>https://github.com/ProjectAres/API</url>
+        <connection>scm:git:git@github.com:OvercastNetwork/API.git</connection>
+        <developerConnection>scm:git:git@github.com:OvercastNetwork/API.git</developerConnection>
+        <url>https://github.com/OvercastNetwork/API</url>
     </scm>
     <repositories>
         <repository>
@@ -27,12 +27,12 @@
         <dependency>
             <groupId>me.anxuiz</groupId>
             <artifactId>settings</artifactId>
-            <version>0.1.0</version>
+            <version>0.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.4.5-R0.3-SNAPSHOT</version>
+            <version>1.5.2-R0.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>

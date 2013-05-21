@@ -1,4 +1,4 @@
-package tc.oc.projectares.api;
+package tc.oc.api;
 
 import javax.annotation.Nonnull;
 

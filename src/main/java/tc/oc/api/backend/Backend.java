@@ -1,4 +1,4 @@
-package tc.oc.projectares.api.backend;
+package tc.oc.api.backend;
 
 import java.util.Collection;
 
@@ -7,10 +7,10 @@ import javax.annotation.Nullable;
 
 import org.bukkit.World;
 
-import tc.oc.projectares.api.Match;
-import tc.oc.projectares.api.MatchManager;
-import tc.oc.projectares.api.Player;
-import tc.oc.projectares.api.PlayerManager;
+import tc.oc.api.Match;
+import tc.oc.api.MatchManager;
+import tc.oc.api.Player;
+import tc.oc.api.PlayerManager;
 
 /**
  * Interface that is implemented by the API implementation is order to cleanly
